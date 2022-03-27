@@ -9,4 +9,5 @@ A dialogue system is a gameplay mechanic that is used in many role-playing games
 ## 2.1. Simple dialogue
 A simple dialogue is a dialogue that doesn't have any choices for the player, that means, it's a linear conversation that will not have any changes.
 Some games also make linear conversations with choices, giving the players the feeling that they are affecting the conversation.
+<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/simple-dialogue.png" width="300"/>
 ## 2.2. Branching dialogue
