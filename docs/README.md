@@ -4,11 +4,14 @@
 2. Types of dialogs
 3. Why are dialogs important?
 4. Dialog design
-5. Example and exercise
-6. Documentation links and references
+5. Market study
+6. Selected approach
+7. Possible improvements
+8. Example and exercise
+9. Documentation links and references
 
 # 1. What is a Dialog System?
-A dialog system is a gameplay mechanic that is used in many role-playing games (RPG). When the player interacts with a non-player character (NPC), it will start a conversation which may or may not give the player choices of what to say.
+A dialog system is a gameplay mechanic that is used in many role-playing games (RPG). When the player interacts with a non-player character (NPC), it will start a conversation which may or may not give the player choices of what to say. Some dialogs are triggered by events happening in the game, such as finishing a dungeon or unlocking a specific item.
 
 # 2. Types of dialogs
 ## 2.1. Simple dialogs
@@ -40,7 +43,26 @@ The design of the in-game dialogs are very important, as the player may miss som
 
 Giving rewards to the players in a specific dialog path will make the players feel more interested in speaking with the NPCs, meaning they will be more willing to investigate the areas and read the conversations.
 
-# 5. Example and exercise
+# 5. Market study
+Many games use dialog systems, which are very simillar, but they have big differences in presenting the dialogs.
+- Text, but no images
+<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/noimg-dialog.png" width="400"/>
+
+- Text and image representing the character
+<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/img-dialog.png" width="400"/>
+
+- Showing the text letter by letter
+
+<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/animalcrossing.gif" width="300"/>
+
+# 6. Selected approach
+In our case, our dialog system will have an image representing the character that we are speaking with, and the dialog will be showing the text letter by letter till its finished. The player will be able to skip the letter animation with a button and then go to the next dialog box by pressing the same button again. The player can also skip the whole dialog and go to the last one, this way he can check the relevant information. Also, items, names and locations will be represented with a different color.
+
+# 7. Possible improvements
+- Use voices for the dialog.
+- Load the dialog from a text file, either self-defined, json or xml.
+
+# 8. Example and exercise
 
 ## TODO 1: Create a dialog diagram
 You can use an online diagram maker such as [Lucidchart](https://www.lucidchart.com).
@@ -53,7 +75,7 @@ Example: In a world of magic, a strange mage appears in front of the player, the
 
 For a practical example, check the folder with the solution inside the repository.
 
-## Documentation Links and References
+## 9. Documentation Links and References
 - [Gamasutra (Defining Dialogue Systems)](https://www.gamasutra.com/view/feature/3719/defining_dialogue_systems.php)
 - [Dialogue tree (Wikipedia)](https://en.wikipedia.org/wiki/Dialogue_tree#:~:text=A%20dialogue%20tree%2C%20or%20conversation,choices%20until%20the%20conversation%20ends.)
 - [Polygon](https://www.polygon.com/2014/3/17/5519270/successful-in-game-dialogue-should-carry-players-forward)
