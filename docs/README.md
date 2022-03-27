@@ -2,6 +2,10 @@
 # Content
 1. What is a Dialog System?
 2. Types of dialogs
+3. Why are dialogs important?
+4. Dialog design
+5. Example and exercise
+6. Documentation links and references
 
 # 1. What is a Dialog System?
 A dialog system is a gameplay mechanic that is used in many role-playing games (RPG). When the player interacts with a non-player character (NPC), it will start a conversation which may or may not give the player choices of what to say.
@@ -33,9 +37,10 @@ The design of the in-game dialogs are very important, as the player may miss som
 - The last thing in the conversation must be what to do, where to go and what to kill.
 - If the player already had this conversation, show only the important information about the next mission.
 - Let the player skip the conversation and go for the important information.
+
 Giving rewards to the players in a specific dialog path will make the players feel more interested in speaking with the NPCs, meaning they will be more willing to investigate the areas and read the conversations.
 
-# 5. Example
+# 5. Example and exercise
 
 ## TODO 1: Create a dialog diagram
 You can use an online diagram maker such as [Lucidchart](https://www.lucidchart.com).
@@ -51,3 +56,4 @@ For a practical example, check the folder with the solution inside the repositor
 ## Documentation Links and References
 - [Gamasutra (Defining Dialogue Systems)](https://www.gamasutra.com/view/feature/3719/defining_dialogue_systems.php)
 - [Dialogue tree (Wikipedia)](https://en.wikipedia.org/wiki/Dialogue_tree#:~:text=A%20dialogue%20tree%2C%20or%20conversation,choices%20until%20the%20conversation%20ends.)
+- [Polygon](https://www.polygon.com/2014/3/17/5519270/successful-in-game-dialogue-should-carry-players-forward)
