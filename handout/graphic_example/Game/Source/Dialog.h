@@ -41,6 +41,7 @@ private:
 	// Whether the dialog has finished or not
 	bool finished;
 
+	// Split the given text with max_chars_line and add them to texts list
 	void SplitText(std::string text);
 public:
 	Dialog();
