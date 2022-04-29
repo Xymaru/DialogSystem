@@ -28,7 +28,9 @@ Example of a simple dialog:
 Branching dialogs are dialogs that are not linear, the NPC will have a dialog tree with all the possible paths the conversation can go through, depending on the choices of the player. Branching dialogs usually curve back on themselves, so that player choices will give a different response but it will stick back to the same branch.
 
 <img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/branching-dialogue.png" width="600"/>
+
 Example of a dialog tree:
+
 <img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/branching-example.png" width="600"/>
 
 # 3. Why are dialogs important?
@@ -46,9 +48,11 @@ Giving rewards to the players in a specific dialog path will make the players fe
 # 5. Market study
 Many games use dialog systems, which are very simillar, but they have big differences in presenting the dialogs.
 - Text, but no images
+
 <img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/noimg-dialog.png" width="400"/>
 
 - Text and image representing the character
+
 <img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/img-dialog.png" width="400"/>
 
 - Showing the text letter by letter
@@ -68,6 +72,7 @@ In our case, our dialog system will have an image representing the character tha
 You can use an online diagram maker such as [Lucidchart](https://www.lucidchart.com).
 
 Example: In a world of magic, a strange mage appears in front of the player, then the dialog begins:
+
 <img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/dialog-example.png" width="400"/>
 
 ## TODO 2: Download the repository and follow the TODOs in the code inside the folder handout.
