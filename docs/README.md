@@ -18,18 +18,18 @@ A dialog system is a gameplay mechanic that is used in many role-playing games (
 A simple dialog is a dialog that doesn't have any choices for the player, that means, it's a linear conversation that will not have any changes.
 One common technique is to make linear conversations with choices, giving the players the feeling that they are affecting the conversation.
 
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/simple-dialogue.png" width="600"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/simple-dialogue.png" width="600"/>
 
 Example of a simple dialog:
 
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/simple-dialogue-example.png" width="600"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/simple-dialogue-example.png" width="600"/>
 
 ## 2.2. Branching dialog
 Branching dialogs are dialogs that are not linear, the NPC will have a dialog tree with all the possible paths the conversation can go through, depending on the choices of the player. Branching dialogs usually curve back on themselves, so that player choices will give a different response but it will stick back to the same branch.
 
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/branching-dialogue.png" width="600"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/branching-dialogue.png" width="600"/>
 Example of a dialog tree:
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/branching-example.png" width="600"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/branching-example.png" width="600"/>
 
 # 3. Why are dialogs important?
 Conversations are very important for games, they are there to keep the player involved and keep the story moving. They can take the form of quests, hints or conversations to introduce the player to new characters, locations, features or mechanics of the game.
@@ -46,14 +46,14 @@ Giving rewards to the players in a specific dialog path will make the players fe
 # 5. Market study
 Many games use dialog systems, which are very simillar, but they have big differences in presenting the dialogs.
 - Text, but no images
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/noimg-dialog.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/noimg-dialog.png" width="400"/>
 
 - Text and image representing the character
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/img-dialog.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/img-dialog.png" width="400"/>
 
 - Showing the text letter by letter
 
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/animalcrossing.gif" width="300"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/animalcrossing.gif" width="300"/>
 
 # 6. Selected approach
 In our case, our dialog system will have an image representing the character that we are speaking with, and the dialog will be showing the text letter by letter till its finished. The player will be able to skip the letter animation with a button and then go to the next dialog box by pressing the same button again. The player can also skip the whole dialog and go to the last one, this way he can check the relevant information. Also, items, names and locations will be represented with a different color.
@@ -68,7 +68,7 @@ In our case, our dialog system will have an image representing the character tha
 You can use an online diagram maker such as [Lucidchart](https://www.lucidchart.com).
 
 Example: In a world of magic, a strange mage appears in front of the player, then the dialog begins:
-<img src="https://github.com/Xymaru/DialogSystem/blob/main/docs/images/dialog-example.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Xymaru/DialogSystem/main/docs/images/dialog-example.png" width="400"/>
 
 ## TODO 2: Download the repository and follow the TODOs in the code inside the folder handout.
 - [Handout](https://github.com/Xymaru/DialogSystem)
